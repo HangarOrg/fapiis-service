@@ -32,3 +32,7 @@ Once you're done, now you have a file called `fapiis.json`. Eventually, I'll bui
 
 - Probably a REST API that allows for faceted search.
 - Ideally, record-level information (i.e., get the PDFs and the other information), which would come from crawling the links and getting more detailed information.
+
+## License
+
+All rights reserved while I figure out licensing.
