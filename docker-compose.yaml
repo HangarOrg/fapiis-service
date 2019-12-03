@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  web:
+    build: .
+    command: waitress-serve --listen=*:5000 server:application
+    ports: ["5000:5000"]

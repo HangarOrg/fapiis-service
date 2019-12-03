@@ -24,9 +24,11 @@ git clone
 cd fapiis-service
 poetry install
 poetry run python main.py
+docker-compose build
+docker-compose up
 ```
 
-Once you're done, now you have a file called `fapiis.json`. Eventually, I'll build the Flask app that serves this data. But for now, it's just a JSON file.
+Now we've got a little REST API... hooray!
 
 ## Roadmap
 

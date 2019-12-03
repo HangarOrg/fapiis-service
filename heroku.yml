@@ -1,0 +1,7 @@
+build:
+  docker:
+    web: Dockerfile
+  config:
+    PRODUCTION: 1
+run:
+  web: waitress-serve --listen=*:$PORT server:application

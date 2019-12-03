@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  web:
+    volumes:
+      - ./:/code/
+    command: waitress-serve --listen=*:5000 server:application
