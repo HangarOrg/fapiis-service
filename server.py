@@ -2,7 +2,7 @@ from bottle import route, run, response, default_app
 import os
 import json
 
-with open("fapiis.json", "r") as fp:
+with open("/code/fapiis.json", "r") as fp:
     data = json.load(fp)
 
 application = default_app()
